@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Zadanie01 {
+public class Zadanie02 {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver",
@@ -13,14 +13,11 @@ public class Zadanie01 {
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://www.google.com");
-        WebElement acceptCookiesButton = driver.findElement(By.id("L2AGLb"));
-        acceptCookiesButton.click();
-        WebElement element = driver.findElement(By.name("q"));
-        element.clear();
-        element.sendKeys("Testowanie");
+        driver.get("https://coderslab.pl/pl");
+        driver.get("https://mystore-testlab.coderslab.pl/index.php");
+        driver.get("https://hotel-testlab.coderslab.pl/en/");
 
-        element.submit();
+
         driver.quit();
     }
 

@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a00c71-5f60-4bf1-97a3-f548d149e6a8" name="Changes" comment="selenium config and driver">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie01.java" afterDir="false" />
+    <list default="true" id="84a00c71-5f60-4bf1-97a3-f548d149e6a8" name="Changes" comment="zadanie 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WyszukiwanieElementow/Zadanie01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WyszukiwanieElementow/Zadanie02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WyszukiwanieElementow/Zadanie03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WyszukiwanieElementow/Zadanie04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WyszukiwanieElementow/Zadanie05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +59,39 @@
       <recent name="C:\Users\Diason\Selenium\SeleniumCourse\src\main\resources\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zadanie01">
-    <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskCheckConfig.GoogleSearch" />
+  <component name="RunManager" selected="Application.WyszukiwanieElementow.Zadanie03">
+    <configuration name="WyszukiwanieElementow.Zadanie01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WyszukiwanieElementow.Zadanie01" />
       <module name="SeleniumCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TaskCheckConfig.*" />
+          <option name="PATTERN" value="WyszukiwanieElementow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WyszukiwanieElementow.Zadanie02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WyszukiwanieElementow.Zadanie02" />
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WyszukiwanieElementow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WyszukiwanieElementow.Zadanie03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WyszukiwanieElementow.Zadanie03" />
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WyszukiwanieElementow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,10 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Konfiguracja.Zadanie03" />
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Konfiguracja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WyszukiwanieElementow.Zadanie03" />
+        <item itemvalue="Application.WyszukiwanieElementow.Zadanie02" />
+        <item itemvalue="Application.WyszukiwanieElementow.Zadanie01" />
         <item itemvalue="Application.Zadanie01" />
-        <item itemvalue="Application.GoogleSearch" />
+        <item itemvalue="Application.Zadanie03" />
       </list>
     </recent_temporary>
   </component>
@@ -116,12 +165,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674990177642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zadanie 1">
+      <created>1674990913558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674990913558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitig" />
     <MESSAGE value="selenium config and driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium config and driver" />
+    <MESSAGE value="zadanie 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadanie 1" />
   </component>
 </project>
