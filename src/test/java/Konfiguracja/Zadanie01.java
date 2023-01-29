@@ -1,11 +1,11 @@
-package TaskCheckConfig;
+package Konfiguracja;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class GoogleSearch {
+public class Zadanie01 {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver",
@@ -18,10 +18,9 @@ public class GoogleSearch {
         acceptCookiesButton.click();
         WebElement element = driver.findElement(By.name("q"));
         element.clear();
-        element.sendKeys("Coderslab");
+        element.sendKeys("Testowanie");
         element.submit();
         driver.quit();
     }
 
 }
-

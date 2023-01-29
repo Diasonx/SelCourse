@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a00c71-5f60-4bf1-97a3-f548d149e6a8" name="Changes" comment="gitig">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Drivers/LICENSE.chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TaskCheckConfig/GoogleSearch.java" afterDir="false" />
+    <list default="true" id="84a00c71-5f60-4bf1-97a3-f548d149e6a8" name="Changes" comment="selenium config and driver">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Konfiguracja/Zadanie01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <recent name="C:\Users\Diason\Selenium\SeleniumCourse\src\main\resources\Drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Zadanie01">
     <configuration name="GoogleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TaskCheckConfig.GoogleSearch" />
       <module name="SeleniumCourse" />
@@ -69,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Konfiguracja.Zadanie01" />
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Konfiguracja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadanie01" />
         <item itemvalue="Application.GoogleSearch" />
       </list>
     </recent_temporary>
@@ -98,11 +109,19 @@
       <option name="project" value="LOCAL" />
       <updated>1674984620526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="selenium config and driver">
+      <created>1674990177642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674990177642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitig" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitig" />
+    <MESSAGE value="selenium config and driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium config and driver" />
   </component>
 </project>
